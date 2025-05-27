@@ -18,7 +18,6 @@ require (
 	github.com/cosmos/cosmos-sdk v0.50.11
 	github.com/cosmos/gogogateway v1.2.0
 	github.com/cosmos/gogoproto v1.7.0
-	github.com/cosmos/interchain-security/v5 v5.2.0
 	github.com/ethereum/go-ethereum v1.14.11
 	github.com/gagliardetto/binary v0.8.0
 	github.com/gagliardetto/solana-go v1.11.0
@@ -50,17 +49,18 @@ require (
 
 require (
 	github.com/golangci/go-printf-func-name v0.1.0 // indirect
+	github.com/hashicorp/go-uuid v1.0.2 // indirect
+	github.com/onsi/ginkgo v1.16.4 // indirect
 	github.com/raeperd/recvcheck v0.1.2 // indirect
+	github.com/ugorji/go/codec v1.2.11 // indirect
 	github.com/uudashr/iface v1.2.1 // indirect
 )
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.2.1 // indirect
 	4d63.com/gochecknoglobals v0.2.1 // indirect
-	cloud.google.com/go/storage v1.43.0 // indirect
 	cosmossdk.io/errors v1.0.1 // indirect
 	cosmossdk.io/x/tx v0.13.7 // indirect
-	cosmossdk.io/x/upgrade v0.1.4 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/4meepo/tagalign v1.3.4 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
@@ -121,8 +121,6 @@ require (
 	github.com/cosmos/cosmos-db v1.1.0 // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/cosmos/iavl v1.2.2 // indirect
-	github.com/cosmos/ibc-go/modules/capability v1.0.1 // indirect
-	github.com/cosmos/ibc-go/v8 v8.5.1 // indirect
 	github.com/cosmos/ics23/go v0.11.0 // indirect
 	github.com/cosmos/ledger-cosmos-go v0.13.3 // indirect
 	github.com/crate-crypto/go-ipa v0.0.0-20240223125850-b1e8a79f509c // indirect
@@ -196,7 +194,6 @@ require (
 	github.com/gostaticanalysis/nilerr v0.1.1 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0 // indirect
 	github.com/gsterjov/go-libsecret v0.0.0-20161001094733-a6f4afe4910c // indirect
-	github.com/hashicorp/go-getter v1.7.5 // indirect
 	github.com/hashicorp/go-hclog v1.5.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
 	github.com/hashicorp/go-metrics v0.5.3 // indirect
