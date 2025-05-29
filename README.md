@@ -1,3 +1,13 @@
+# Fork notice
+
+This is a fork to be used by https://github.com/warden-protocol/wardenprotocol.
+
+All the changes are currently being made to the [release/v1.x.x](https://github.com/warden-protocol/connect/tree/release/v1.x.x) branch, as it's the one we are using at the moment.
+
+---
+
+Original README below:
+
 # Connect [End of Life -- Please fork to use or contribute]
 
 <!-- markdownlint-disable MD013 -->
