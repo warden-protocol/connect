@@ -1,3 +1,15 @@
+# Fork notice
+
+This is a v1.x.x fork of https://github.com/skip-mev/connect to be used by https://github.com/warden-protocol/wardenprotocol.
+
+Changes made:
+
+* removed the dependency on IBC-go (this removed entirely the support for interchain security validators)
+
+---
+
+Original README below.
+
 # slinky
 
 <!-- markdownlint-disable MD013 -->
