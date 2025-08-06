@@ -6,8 +6,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/x/oracle/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/x/oracle/types"
 )
 
 // queryServer is the default implementation of the x/oracle QueryService.

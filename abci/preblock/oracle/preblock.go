@@ -11,14 +11,14 @@ import (
 	cometabci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	abciaggregator "github.com/skip-mev/slinky/abci/strategies/aggregator"
-	"github.com/skip-mev/slinky/abci/strategies/codec"
-	"github.com/skip-mev/slinky/abci/strategies/currencypair"
-	slinkyabcitypes "github.com/skip-mev/slinky/abci/types"
-	"github.com/skip-mev/slinky/abci/ve"
-	"github.com/skip-mev/slinky/aggregator"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	servicemetrics "github.com/skip-mev/slinky/service/metrics"
+	abciaggregator "github.com/warden-protocol/connect/abci/strategies/aggregator"
+	"github.com/warden-protocol/connect/abci/strategies/codec"
+	"github.com/warden-protocol/connect/abci/strategies/currencypair"
+	slinkyabcitypes "github.com/warden-protocol/connect/abci/types"
+	"github.com/warden-protocol/connect/abci/ve"
+	"github.com/warden-protocol/connect/aggregator"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	servicemetrics "github.com/warden-protocol/connect/service/metrics"
 )
 
 // PreBlockHandler is responsible for aggregating oracle data from each

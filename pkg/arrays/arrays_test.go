@@ -3,7 +3,7 @@ package arrays_test
 import (
 	"testing"
 
-	"github.com/skip-mev/slinky/pkg/arrays"
+	"github.com/warden-protocol/connect/pkg/arrays"
 )
 
 func TestCheckEntryInArray(t *testing.T) {

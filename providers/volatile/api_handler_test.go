@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/providers/volatile"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/providers/volatile"
 )
 
 var (

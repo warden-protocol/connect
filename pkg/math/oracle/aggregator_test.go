@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle/metrics"
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/pkg/math/oracle"
-	pkgtypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/apis/binance"
-	"github.com/skip-mev/slinky/providers/apis/coinbase"
-	"github.com/skip-mev/slinky/providers/websockets/kucoin"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/metrics"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/pkg/math/oracle"
+	pkgtypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/apis/binance"
+	"github.com/warden-protocol/connect/providers/apis/coinbase"
+	"github.com/warden-protocol/connect/providers/websockets/kucoin"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/pkg/slices"
+	"github.com/warden-protocol/connect/pkg/slices"
 )
 
 func TestChunkSlice(t *testing.T) {

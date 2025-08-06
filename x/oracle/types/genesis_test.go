@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
 
-	"github.com/skip-mev/slinky/x/oracle/types"
+	"github.com/warden-protocol/connect/x/oracle/types"
 )
 
 func TestGenesisValidation(t *testing.T) {

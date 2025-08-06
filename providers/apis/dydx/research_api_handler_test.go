@@ -7,24 +7,24 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/skip-mev/slinky/providers/apis/coinmarketcap"
-	dydxtypes "github.com/skip-mev/slinky/providers/apis/dydx/types"
-	"github.com/skip-mev/slinky/providers/base/testutils"
-	"github.com/skip-mev/slinky/providers/websockets/binance"
-	"github.com/skip-mev/slinky/providers/websockets/coinbase"
-	"github.com/skip-mev/slinky/providers/websockets/gate"
-	"github.com/skip-mev/slinky/providers/websockets/kucoin"
-	"github.com/skip-mev/slinky/providers/websockets/mexc"
-	"github.com/skip-mev/slinky/providers/websockets/okx"
+	"github.com/warden-protocol/connect/providers/apis/coinmarketcap"
+	dydxtypes "github.com/warden-protocol/connect/providers/apis/dydx/types"
+	"github.com/warden-protocol/connect/providers/base/testutils"
+	"github.com/warden-protocol/connect/providers/websockets/binance"
+	"github.com/warden-protocol/connect/providers/websockets/coinbase"
+	"github.com/warden-protocol/connect/providers/websockets/gate"
+	"github.com/warden-protocol/connect/providers/websockets/kucoin"
+	"github.com/warden-protocol/connect/providers/websockets/mexc"
+	"github.com/warden-protocol/connect/providers/websockets/okx"
 
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/apis/dydx"
-	"github.com/skip-mev/slinky/service/clients/marketmap/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/apis/dydx"
+	"github.com/warden-protocol/connect/service/clients/marketmap/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 func TestNewResearchAPIHandler(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/x/marketmap/types/tickermetadata"
+	"github.com/warden-protocol/connect/x/marketmap/types/tickermetadata"
 )
 
 func Test_UnmarshalCoreMetadata(t *testing.T) {

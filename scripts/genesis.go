@@ -5,10 +5,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/skip-mev/slinky/cmd/constants/marketmaps"
-	"github.com/skip-mev/slinky/providers/apis/coinmarketcap"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
-	"github.com/skip-mev/slinky/x/marketmap/types/tickermetadata"
+	"github.com/warden-protocol/connect/cmd/constants/marketmaps"
+	"github.com/warden-protocol/connect/providers/apis/coinmarketcap"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
+	"github.com/warden-protocol/connect/x/marketmap/types/tickermetadata"
 )
 
 var (

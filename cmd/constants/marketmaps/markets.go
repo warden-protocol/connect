@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 var (

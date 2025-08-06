@@ -5,9 +5,9 @@ import (
 	"maps"
 	"math/big"
 
-	"github.com/skip-mev/slinky/oracle/types"
-	pkgtypes "github.com/skip-mev/slinky/pkg/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/types"
+	pkgtypes "github.com/warden-protocol/connect/pkg/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 // GetProviderPrice returns the relevant provider price. Note that the aggregator's

@@ -14,13 +14,13 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/pkg/slices"
-	"github.com/skip-mev/slinky/providers/apis/defi/ethmulticlient"
-	uniswappool "github.com/skip-mev/slinky/providers/apis/defi/uniswapv3/pool"
-	"github.com/skip-mev/slinky/providers/base/api/metrics"
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/pkg/slices"
+	"github.com/warden-protocol/connect/providers/apis/defi/ethmulticlient"
+	uniswappool "github.com/warden-protocol/connect/providers/apis/defi/uniswapv3/pool"
+	"github.com/warden-protocol/connect/providers/base/api/metrics"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 var _ types.PriceAPIFetcher = (*PriceFetcher)(nil)

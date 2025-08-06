@@ -11,10 +11,10 @@ import (
 
 	"github.com/skip-mev/chaintestutil/sample"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/x/marketmap/keeper"
-	"github.com/skip-mev/slinky/x/marketmap/types"
-	mmmocks "github.com/skip-mev/slinky/x/marketmap/types/mocks"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/x/marketmap/keeper"
+	"github.com/warden-protocol/connect/x/marketmap/types"
+	mmmocks "github.com/warden-protocol/connect/x/marketmap/types/mocks"
 )
 
 func (s *KeeperTestSuite) TestMsgServerCreateMarkets() {

@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/providers/apis/coingecko"
-	"github.com/skip-mev/slinky/providers/base/testutils"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/providers/apis/coingecko"
+	"github.com/warden-protocol/connect/providers/base/testutils"
 )
 
 var (

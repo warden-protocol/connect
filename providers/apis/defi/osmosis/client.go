@@ -10,10 +10,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/pkg/http"
-	"github.com/skip-mev/slinky/providers/apis/defi/types"
-	"github.com/skip-mev/slinky/providers/base/api/metrics"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/pkg/http"
+	"github.com/warden-protocol/connect/providers/apis/defi/types"
+	"github.com/warden-protocol/connect/providers/base/api/metrics"
 )
 
 const (

@@ -3,7 +3,7 @@ package bitstamp
 import (
 	"time"
 
-	"github.com/skip-mev/slinky/oracle/config"
+	"github.com/warden-protocol/connect/oracle/config"
 )
 
 const (

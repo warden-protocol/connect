@@ -6,13 +6,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/base"
-	apihandlers "github.com/skip-mev/slinky/providers/base/api/handlers"
-	apimetrics "github.com/skip-mev/slinky/providers/base/api/metrics"
-	wshandlers "github.com/skip-mev/slinky/providers/base/websocket/handlers"
-	wsmetrics "github.com/skip-mev/slinky/providers/base/websocket/metrics"
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/base"
+	apihandlers "github.com/warden-protocol/connect/providers/base/api/handlers"
+	apimetrics "github.com/warden-protocol/connect/providers/base/api/metrics"
+	wshandlers "github.com/warden-protocol/connect/providers/base/websocket/handlers"
+	wsmetrics "github.com/warden-protocol/connect/providers/base/websocket/metrics"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 // ConfigType is the type of the API/WebSocket configuration.

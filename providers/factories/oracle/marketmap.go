@@ -5,15 +5,15 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/apis/dydx"
-	"github.com/skip-mev/slinky/providers/apis/marketmap"
-	"github.com/skip-mev/slinky/providers/base"
-	apihandlers "github.com/skip-mev/slinky/providers/base/api/handlers"
-	apimetrics "github.com/skip-mev/slinky/providers/base/api/metrics"
-	providermetrics "github.com/skip-mev/slinky/providers/base/metrics"
-	"github.com/skip-mev/slinky/service/clients/marketmap/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/apis/dydx"
+	"github.com/warden-protocol/connect/providers/apis/marketmap"
+	"github.com/warden-protocol/connect/providers/base"
+	apihandlers "github.com/warden-protocol/connect/providers/base/api/handlers"
+	apimetrics "github.com/warden-protocol/connect/providers/base/api/metrics"
+	providermetrics "github.com/warden-protocol/connect/providers/base/metrics"
+	"github.com/warden-protocol/connect/service/clients/marketmap/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 // MarketMapProviderFactory returns a sample implementation of the market map provider. This provider

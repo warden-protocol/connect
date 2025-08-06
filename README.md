@@ -16,10 +16,10 @@ Original README below.
 <!-- markdownlint-disable MD041 -->
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#wip)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue?style=flat-square&logo=go)](https://godoc.org/github.com/skip-mev/slinky)
-[![Go Report Card](https://goreportcard.com/badge/github.com/skip-mev/slinky?style=flat-square)](https://goreportcard.com/report/github.com/skip-mev/slinky)
-[![Version](https://img.shields.io/github/tag/skip-mev/slinky.svg?style=flat-square)](https://github.com/skip-mev/slinky/releases/latest)
-[![Lines Of Code](https://img.shields.io/tokei/lines/github/skip-mev/slinky?style=flat-square)](https://github.com/skip-mev/slinky)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue?style=flat-square&logo=go)](https://godoc.org/github.com/warden-protocol/connect)
+[![Go Report Card](https://goreportcard.com/badge/github.com/warden-protocol/connect?style=flat-square)](https://goreportcard.com/report/github.com/warden-protocol/connect)
+[![Version](https://img.shields.io/github/tag/skip-mev/slinky.svg?style=flat-square)](https://github.com/warden-protocol/connect/releases/latest)
+[![Lines Of Code](https://img.shields.io/tokei/lines/github/skip-mev/slinky?style=flat-square)](https://github.com/warden-protocol/connect)
 
 A general purpose price oracle leveraging ABCI++. Please visit our [docs](https://docs.skip.build/connect/introduction) page for more information!
 
@@ -33,7 +33,7 @@ many of the highest-performance decentralized applications today. If you would l
 ## Install
 
 ```shell
-$ go install github.com/skip-mev/slinky
+$ go install github.com/warden-protocol/connect
 ```
 
 ## Overview

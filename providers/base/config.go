@@ -3,10 +3,10 @@ package base
 import (
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	apihandler "github.com/skip-mev/slinky/providers/base/api/handlers"
-	wshandlers "github.com/skip-mev/slinky/providers/base/websocket/handlers"
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	apihandler "github.com/warden-protocol/connect/providers/base/api/handlers"
+	wshandlers "github.com/warden-protocol/connect/providers/base/websocket/handlers"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 // UpdateOption are the options that can be used to update the provider.

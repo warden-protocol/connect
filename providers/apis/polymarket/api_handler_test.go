@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
 )
 
 var candidateWinsElectionToken = types.DefaultProviderTicker{

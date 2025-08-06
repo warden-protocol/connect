@@ -13,9 +13,9 @@ import (
 	"github.com/strangelove-ventures/interchaintest/v8/ibc"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/skip-mev/slinky/tests/integration"
-	marketmapmodule "github.com/skip-mev/slinky/x/marketmap"
-	"github.com/skip-mev/slinky/x/oracle"
+	"github.com/warden-protocol/connect/tests/integration"
+	marketmapmodule "github.com/warden-protocol/connect/x/marketmap"
+	"github.com/warden-protocol/connect/x/oracle"
 )
 
 var (

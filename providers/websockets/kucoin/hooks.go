@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	apihandlers "github.com/skip-mev/slinky/providers/base/api/handlers"
-	wshandlers "github.com/skip-mev/slinky/providers/base/websocket/handlers"
+	"github.com/warden-protocol/connect/oracle/config"
+	apihandlers "github.com/warden-protocol/connect/providers/base/api/handlers"
+	wshandlers "github.com/warden-protocol/connect/providers/base/websocket/handlers"
 )
 
 const (

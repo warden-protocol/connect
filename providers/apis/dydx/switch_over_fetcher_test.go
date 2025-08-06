@@ -11,16 +11,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/apis/dydx"
-	"github.com/skip-mev/slinky/providers/apis/marketmap"
-	apihandlers "github.com/skip-mev/slinky/providers/base/api/handlers"
-	apihandlermocks "github.com/skip-mev/slinky/providers/base/api/handlers/mocks"
-	"github.com/skip-mev/slinky/providers/base/api/metrics"
-	apimetricsmocks "github.com/skip-mev/slinky/providers/base/api/metrics/mocks"
-	providertypes "github.com/skip-mev/slinky/providers/types"
-	mmclient "github.com/skip-mev/slinky/service/clients/marketmap/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/apis/dydx"
+	"github.com/warden-protocol/connect/providers/apis/marketmap"
+	apihandlers "github.com/warden-protocol/connect/providers/base/api/handlers"
+	apihandlermocks "github.com/warden-protocol/connect/providers/base/api/handlers/mocks"
+	"github.com/warden-protocol/connect/providers/base/api/metrics"
+	apimetricsmocks "github.com/warden-protocol/connect/providers/base/api/metrics/mocks"
+	providertypes "github.com/warden-protocol/connect/providers/types"
+	mmclient "github.com/warden-protocol/connect/service/clients/marketmap/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 func TestDefaultSwitchOverProvider(t *testing.T) {

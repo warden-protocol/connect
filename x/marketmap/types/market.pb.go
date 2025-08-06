@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
-	types "github.com/skip-mev/slinky/pkg/types"
+	types "github.com/warden-protocol/connect/pkg/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"

@@ -6,16 +6,16 @@ import (
 	"math/big"
 	"testing"
 
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 
 	"go.uber.org/zap"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/providers/base/websocket/handlers"
-	"github.com/skip-mev/slinky/providers/websockets/coinbase"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/providers/base/websocket/handlers"
+	"github.com/warden-protocol/connect/providers/websockets/coinbase"
 )
 
 var (

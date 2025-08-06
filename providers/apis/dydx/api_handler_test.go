@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/providers/apis/dydx"
-	"github.com/skip-mev/slinky/providers/base/testutils"
-	providertypes "github.com/skip-mev/slinky/providers/types"
-	"github.com/skip-mev/slinky/service/clients/marketmap/types"
+	"github.com/warden-protocol/connect/providers/apis/dydx"
+	"github.com/warden-protocol/connect/providers/base/testutils"
+	providertypes "github.com/warden-protocol/connect/providers/types"
+	"github.com/warden-protocol/connect/service/clients/marketmap/types"
 )
 
 var chains = []types.Chain{

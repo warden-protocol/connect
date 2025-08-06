@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/cmd/constants/marketmaps"
-	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/cmd/constants/marketmaps"
+	marketmaptypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 func TestMarkets(t *testing.T) {

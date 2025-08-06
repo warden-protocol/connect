@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/providers/base/websocket/handlers"
-	"github.com/skip-mev/slinky/providers/websockets/kraken"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/providers/base/websocket/handlers"
+	"github.com/warden-protocol/connect/providers/websockets/kraken"
 )
 
 var (

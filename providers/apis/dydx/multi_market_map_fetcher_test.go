@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/apis/dydx"
-	apihandlermocks "github.com/skip-mev/slinky/providers/base/api/handlers/mocks"
-	providertypes "github.com/skip-mev/slinky/providers/types"
-	mmclient "github.com/skip-mev/slinky/service/clients/marketmap/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/apis/dydx"
+	apihandlermocks "github.com/warden-protocol/connect/providers/base/api/handlers/mocks"
+	providertypes "github.com/warden-protocol/connect/providers/types"
+	mmclient "github.com/warden-protocol/connect/service/clients/marketmap/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 func TestDYDXMultiMarketMapFetcher(t *testing.T) {

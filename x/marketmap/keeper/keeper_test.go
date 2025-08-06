@@ -5,8 +5,8 @@ import (
 
 	"github.com/skip-mev/chaintestutil/sample"
 
-	oraclekeeper "github.com/skip-mev/slinky/x/oracle/keeper"
-	oracletypes "github.com/skip-mev/slinky/x/oracle/types"
+	oraclekeeper "github.com/warden-protocol/connect/x/oracle/keeper"
+	oracletypes "github.com/warden-protocol/connect/x/oracle/types"
 
 	storetypes "cosmossdk.io/store/types"
 	"github.com/cosmos/cosmos-sdk/runtime"
@@ -15,9 +15,9 @@ import (
 	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
 	"github.com/stretchr/testify/suite"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/x/marketmap/keeper"
-	"github.com/skip-mev/slinky/x/marketmap/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/x/marketmap/keeper"
+	"github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 var r = sample.Rand()

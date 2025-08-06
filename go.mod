@@ -1,4 +1,4 @@
-module github.com/skip-mev/slinky
+module github.com/warden-protocol/connect
 
 go 1.23.1
 

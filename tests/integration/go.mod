@@ -1,11 +1,11 @@
-module github.com/skip-mev/slinky/tests/integration
+module github.com/warden-protocol/connect/tests/integration
 
 replace (
 	github.com/ChainSafe/go-schnorrkel => github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d
 	github.com/ChainSafe/go-schnorrkel/1 => github.com/ChainSafe/go-schnorrkel v1.0.0
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	github.com/skip-mev/slinky => ../../
 	github.com/vedhavyas/go-subkey => github.com/strangelove-ventures/go-subkey v1.0.7
+	github.com/warden-protocol/connect => ../../
 )
 
 go 1.23.1
@@ -17,9 +17,9 @@ require (
 	github.com/cometbft/cometbft v0.38.15
 	github.com/cosmos/cosmos-sdk v0.50.11
 	github.com/pelletier/go-toml/v2 v2.2.3
-	github.com/skip-mev/slinky v1.0.4
 	github.com/strangelove-ventures/interchaintest/v8 v8.8.1
 	github.com/stretchr/testify v1.10.0
+	github.com/warden-protocol/connect v1.0.4
 	go.uber.org/zap v1.27.0
 	google.golang.org/grpc v1.68.1
 )

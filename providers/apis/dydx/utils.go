@@ -9,9 +9,9 @@ import (
 
 	"github.com/gagliardetto/solana-go"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/apis/defi/raydium"
-	"github.com/skip-mev/slinky/providers/apis/defi/uniswapv3"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/apis/defi/raydium"
+	"github.com/warden-protocol/connect/providers/apis/defi/uniswapv3"
 )
 
 const (

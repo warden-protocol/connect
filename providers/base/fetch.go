@@ -11,9 +11,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/pkg/slices"
-	providermetrics "github.com/skip-mev/slinky/providers/base/metrics"
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	"github.com/warden-protocol/connect/pkg/slices"
+	providermetrics "github.com/warden-protocol/connect/providers/base/metrics"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 // fetch is the main blocker for the provider. It is responsible for fetching data from

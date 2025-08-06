@@ -7,8 +7,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	oracletypes "github.com/skip-mev/slinky/x/oracle/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	oracletypes "github.com/warden-protocol/connect/x/oracle/types"
 )
 
 // DeltaCurrencyPairStrategy is a strategy that inherits from the DefaultCurrencyPairStrategy but

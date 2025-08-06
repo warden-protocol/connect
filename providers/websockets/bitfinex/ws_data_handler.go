@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/providers/base/websocket/handlers"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/providers/base/websocket/handlers"
 )
 
 var _ types.PriceWebSocketDataHandler = (*WebSocketHandler)(nil)

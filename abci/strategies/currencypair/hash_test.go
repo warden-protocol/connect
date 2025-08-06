@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	strategies "github.com/skip-mev/slinky/abci/strategies/currencypair"
-	"github.com/skip-mev/slinky/abci/strategies/currencypair/mocks"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
+	strategies "github.com/warden-protocol/connect/abci/strategies/currencypair"
+	"github.com/warden-protocol/connect/abci/strategies/currencypair/mocks"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
 )
 
 func TestHashCurrencyPairStrategyID(t *testing.T) {

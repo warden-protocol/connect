@@ -8,8 +8,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/constants"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/constants"
 )
 
 const (

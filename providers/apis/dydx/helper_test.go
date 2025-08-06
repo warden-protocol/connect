@@ -1,16 +1,16 @@
 package dydx_test
 
 import (
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/apis/kraken"
-	"github.com/skip-mev/slinky/providers/websockets/binance"
-	"github.com/skip-mev/slinky/providers/websockets/bybit"
-	coinbasews "github.com/skip-mev/slinky/providers/websockets/coinbase"
-	"github.com/skip-mev/slinky/providers/websockets/huobi"
-	"github.com/skip-mev/slinky/providers/websockets/kucoin"
-	"github.com/skip-mev/slinky/providers/websockets/mexc"
-	"github.com/skip-mev/slinky/providers/websockets/okx"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/apis/kraken"
+	"github.com/warden-protocol/connect/providers/websockets/binance"
+	"github.com/warden-protocol/connect/providers/websockets/bybit"
+	coinbasews "github.com/warden-protocol/connect/providers/websockets/coinbase"
+	"github.com/warden-protocol/connect/providers/websockets/huobi"
+	"github.com/warden-protocol/connect/providers/websockets/kucoin"
+	"github.com/warden-protocol/connect/providers/websockets/mexc"
+	"github.com/warden-protocol/connect/providers/websockets/okx"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 const dYdXResponseValid = `

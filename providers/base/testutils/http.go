@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/base"
-	"github.com/skip-mev/slinky/providers/base/api/handlers"
-	handlermocks "github.com/skip-mev/slinky/providers/base/api/handlers/mocks"
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/base"
+	"github.com/warden-protocol/connect/providers/base/api/handlers"
+	handlermocks "github.com/warden-protocol/connect/providers/base/api/handlers/mocks"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 // CreateResponseFromJSON creates a http response from a json string.

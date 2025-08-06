@@ -11,14 +11,14 @@ import (
 	cometabci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/skip-mev/slinky/abci/strategies/aggregator"
-	compression "github.com/skip-mev/slinky/abci/strategies/codec"
-	"github.com/skip-mev/slinky/abci/strategies/currencypair"
-	slinkyabci "github.com/skip-mev/slinky/abci/types"
-	"github.com/skip-mev/slinky/abci/ve/types"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	servicemetrics "github.com/skip-mev/slinky/service/metrics"
-	servicetypes "github.com/skip-mev/slinky/service/servers/oracle/types"
+	"github.com/warden-protocol/connect/abci/strategies/aggregator"
+	compression "github.com/warden-protocol/connect/abci/strategies/codec"
+	"github.com/warden-protocol/connect/abci/strategies/currencypair"
+	slinkyabci "github.com/warden-protocol/connect/abci/types"
+	"github.com/warden-protocol/connect/abci/ve/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	servicemetrics "github.com/warden-protocol/connect/service/metrics"
+	servicetypes "github.com/warden-protocol/connect/service/servers/oracle/types"
 )
 
 // VoteExtensionHandler is a handler that extends a vote with the oracle's

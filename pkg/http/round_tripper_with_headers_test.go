@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	slinkyhttp "github.com/skip-mev/slinky/pkg/http"
+	slinkyhttp "github.com/warden-protocol/connect/pkg/http"
 )
 
 func TestRoundTripperWithHeaders(t *testing.T) {

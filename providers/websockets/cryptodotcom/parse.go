@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/pkg/math"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/pkg/math"
 )
 
 // parseInstrumentMessage is used to parse an instrument message received from the Crypto.com

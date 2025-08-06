@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
 )
 
 // NOTE: All documentation for this file can be located on the CoinGecko

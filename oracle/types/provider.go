@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 type (

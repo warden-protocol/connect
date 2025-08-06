@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/skip-mev/slinky/providers/base/websocket/handlers"
+	"github.com/warden-protocol/connect/providers/base/websocket/handlers"
 )
 
 type (

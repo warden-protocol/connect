@@ -7,9 +7,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/x/oracle/keeper"
-	"github.com/skip-mev/slinky/x/oracle/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/x/oracle/keeper"
+	"github.com/warden-protocol/connect/x/oracle/types"
 )
 
 func (s *KeeperTestSuite) TestInitGenesis() {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
 )
 
 //go:generate mockery --name Metrics --filename mock_metrics.go

@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

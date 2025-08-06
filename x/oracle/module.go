@@ -17,11 +17,11 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	oraclemodulev1 "github.com/skip-mev/slinky/api/slinky/oracle/module/v1"
-	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"
-	"github.com/skip-mev/slinky/x/oracle/client/cli"
-	"github.com/skip-mev/slinky/x/oracle/keeper"
-	"github.com/skip-mev/slinky/x/oracle/types"
+	oraclemodulev1 "github.com/warden-protocol/connect/api/slinky/oracle/module/v1"
+	marketmaptypes "github.com/warden-protocol/connect/x/marketmap/types"
+	"github.com/warden-protocol/connect/x/oracle/client/cli"
+	"github.com/warden-protocol/connect/x/oracle/keeper"
+	"github.com/warden-protocol/connect/x/oracle/types"
 )
 
 // ConsensusVersion is the x/oracle module's current version, as modules integrate and updates are made, this value determines what

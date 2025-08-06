@@ -1,7 +1,7 @@
 package oracle
 
 import (
-	"github.com/skip-mev/slinky/oracle/types"
+	"github.com/warden-protocol/connect/oracle/types"
 )
 
 func ToReqPrices(prices types.Prices) map[string]string {

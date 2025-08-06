@@ -7,10 +7,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	oraclemetrics "github.com/skip-mev/slinky/oracle/metrics"
-	providermetrics "github.com/skip-mev/slinky/providers/base/metrics"
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	oraclemetrics "github.com/warden-protocol/connect/oracle/metrics"
+	providermetrics "github.com/warden-protocol/connect/providers/base/metrics"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 // APIMetrics is an interface that defines the API for metrics collection for providers

@@ -7,10 +7,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/providers/base"
-	mmclienttypes "github.com/skip-mev/slinky/service/clients/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/providers/base"
+	mmclienttypes "github.com/warden-protocol/connect/service/clients/marketmap/types"
 )
 
 // Init initializes the all providers that are configured via the oracle config.

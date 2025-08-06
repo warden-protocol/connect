@@ -19,13 +19,13 @@ import (
 	"github.com/strangelove-ventures/interchaintest/v8"
 	"github.com/strangelove-ventures/interchaintest/v8/ibc"
 
-	slinkyabci "github.com/skip-mev/slinky/abci/ve/types"
-	oracleconfig "github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/oracle/types"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/static"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
-	oracletypes "github.com/skip-mev/slinky/x/oracle/types"
+	slinkyabci "github.com/warden-protocol/connect/abci/ve/types"
+	oracleconfig "github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/oracle/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/static"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
+	oracletypes "github.com/warden-protocol/connect/x/oracle/types"
 )
 
 // SlinkyCCVSuite is a testing-suite for testing slinky's integration with ics consumer chains

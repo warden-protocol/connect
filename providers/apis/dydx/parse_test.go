@@ -5,17 +5,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle/constants"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/apis/defi/raydium"
-	"github.com/skip-mev/slinky/providers/apis/defi/uniswapv3"
-	"github.com/skip-mev/slinky/providers/apis/dydx"
-	dydxtypes "github.com/skip-mev/slinky/providers/apis/dydx/types"
-	coinbasews "github.com/skip-mev/slinky/providers/websockets/coinbase"
-	"github.com/skip-mev/slinky/providers/websockets/kucoin"
-	"github.com/skip-mev/slinky/providers/websockets/mexc"
-	"github.com/skip-mev/slinky/providers/websockets/okx"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/constants"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/apis/defi/raydium"
+	"github.com/warden-protocol/connect/providers/apis/defi/uniswapv3"
+	"github.com/warden-protocol/connect/providers/apis/dydx"
+	dydxtypes "github.com/warden-protocol/connect/providers/apis/dydx/types"
+	coinbasews "github.com/warden-protocol/connect/providers/websockets/coinbase"
+	"github.com/warden-protocol/connect/providers/websockets/kucoin"
+	"github.com/warden-protocol/connect/providers/websockets/mexc"
+	"github.com/warden-protocol/connect/providers/websockets/okx"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 func TestConvertMarketParamsToMarketMap(t *testing.T) {

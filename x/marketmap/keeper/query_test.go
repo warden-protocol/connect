@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/x/marketmap/keeper"
-	"github.com/skip-mev/slinky/x/marketmap/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/x/marketmap/keeper"
+	"github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 func (s *KeeperTestSuite) TestMarketMap() {

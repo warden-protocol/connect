@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	servicemetrics "github.com/skip-mev/slinky/service/metrics"
+	servicemetrics "github.com/warden-protocol/connect/service/metrics"
 )
 
 // RecordLatencyAndStatus is used by the ABCI handlers to record their e2e latency, and the status of the request

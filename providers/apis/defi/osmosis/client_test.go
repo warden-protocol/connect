@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/apis/defi/osmosis"
-	"github.com/skip-mev/slinky/providers/apis/defi/osmosis/mocks"
-	"github.com/skip-mev/slinky/providers/base/api/metrics"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/apis/defi/osmosis"
+	"github.com/warden-protocol/connect/providers/apis/defi/osmosis/mocks"
+	"github.com/warden-protocol/connect/providers/base/api/metrics"
 )
 
 // TestMultiClient tests the MultiClient.

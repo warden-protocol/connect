@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/base"
-	"github.com/skip-mev/slinky/providers/base/websocket/handlers"
-	handlermocks "github.com/skip-mev/slinky/providers/base/websocket/handlers/mocks"
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/base"
+	"github.com/warden-protocol/connect/providers/base/websocket/handlers"
+	handlermocks "github.com/warden-protocol/connect/providers/base/websocket/handlers/mocks"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 )
 
 // CreateWebSocketQueryHandlerWithGetResponses creates a mock query handler that returns the given responses every

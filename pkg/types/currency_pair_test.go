@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/testutil"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/testutil"
 )
 
 func TestValidateBasic(t *testing.T) {

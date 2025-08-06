@@ -15,14 +15,14 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc/status"
 
-	"github.com/skip-mev/slinky/oracle/mocks"
-	"github.com/skip-mev/slinky/oracle/types"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	client "github.com/skip-mev/slinky/service/clients/oracle"
-	"github.com/skip-mev/slinky/service/metrics"
-	server "github.com/skip-mev/slinky/service/servers/oracle"
-	stypes "github.com/skip-mev/slinky/service/servers/oracle/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle/mocks"
+	"github.com/warden-protocol/connect/oracle/types"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	client "github.com/warden-protocol/connect/service/clients/oracle"
+	"github.com/warden-protocol/connect/service/metrics"
+	server "github.com/warden-protocol/connect/service/servers/oracle"
+	stypes "github.com/warden-protocol/connect/service/servers/oracle/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 const (

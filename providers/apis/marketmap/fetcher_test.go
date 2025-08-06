@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/apis/coinbase"
-	"github.com/skip-mev/slinky/providers/apis/marketmap"
-	providertypes "github.com/skip-mev/slinky/providers/types"
-	"github.com/skip-mev/slinky/service/clients/marketmap/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
-	"github.com/skip-mev/slinky/x/marketmap/types/mocks"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/apis/coinbase"
+	"github.com/warden-protocol/connect/providers/apis/marketmap"
+	providertypes "github.com/warden-protocol/connect/providers/types"
+	"github.com/warden-protocol/connect/service/clients/marketmap/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
+	"github.com/warden-protocol/connect/x/marketmap/types/mocks"
 )
 
 var (

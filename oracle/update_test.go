@@ -7,14 +7,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle"
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/providers/apis/binance"
-	"github.com/skip-mev/slinky/providers/apis/coinbase"
-	oraclefactory "github.com/skip-mev/slinky/providers/factories/oracle"
-	providertypes "github.com/skip-mev/slinky/providers/types"
-	"github.com/skip-mev/slinky/providers/websockets/okx"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/providers/apis/binance"
+	"github.com/warden-protocol/connect/providers/apis/coinbase"
+	oraclefactory "github.com/warden-protocol/connect/providers/factories/oracle"
+	providertypes "github.com/warden-protocol/connect/providers/types"
+	"github.com/warden-protocol/connect/providers/websockets/okx"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 func TestUpdateWithMarketMap(t *testing.T) {

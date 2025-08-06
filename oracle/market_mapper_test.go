@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skip-mev/slinky/oracle"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	oraclefactory "github.com/skip-mev/slinky/providers/factories/oracle"
-	"github.com/skip-mev/slinky/providers/providertest"
-	mmclienttypes "github.com/skip-mev/slinky/service/clients/marketmap/types"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
+	"github.com/warden-protocol/connect/oracle"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	oraclefactory "github.com/warden-protocol/connect/providers/factories/oracle"
+	"github.com/warden-protocol/connect/providers/providertest"
+	mmclienttypes "github.com/warden-protocol/connect/service/clients/marketmap/types"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
 )
 
 var (

@@ -30,13 +30,13 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	compression "github.com/skip-mev/slinky/abci/strategies/codec"
-	slinkyabci "github.com/skip-mev/slinky/abci/ve/types"
-	oracleconfig "github.com/skip-mev/slinky/oracle/config"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
-	"github.com/skip-mev/slinky/providers/static"
-	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
-	oracletypes "github.com/skip-mev/slinky/x/oracle/types"
+	compression "github.com/warden-protocol/connect/abci/strategies/codec"
+	slinkyabci "github.com/warden-protocol/connect/abci/ve/types"
+	oracleconfig "github.com/warden-protocol/connect/oracle/config"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
+	"github.com/warden-protocol/connect/providers/static"
+	mmtypes "github.com/warden-protocol/connect/x/marketmap/types"
+	oracletypes "github.com/warden-protocol/connect/x/oracle/types"
 )
 
 const (

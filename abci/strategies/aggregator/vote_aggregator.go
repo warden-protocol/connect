@@ -7,12 +7,12 @@ import (
 	"cosmossdk.io/log"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/skip-mev/slinky/abci/strategies/codec"
-	"github.com/skip-mev/slinky/abci/strategies/currencypair"
-	slinkyabci "github.com/skip-mev/slinky/abci/types"
-	vetypes "github.com/skip-mev/slinky/abci/ve/types"
-	"github.com/skip-mev/slinky/aggregator"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
+	"github.com/warden-protocol/connect/abci/strategies/codec"
+	"github.com/warden-protocol/connect/abci/strategies/currencypair"
+	slinkyabci "github.com/warden-protocol/connect/abci/types"
+	vetypes "github.com/warden-protocol/connect/abci/ve/types"
+	"github.com/warden-protocol/connect/aggregator"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
 )
 
 // Vote encapsulates the validator and oracle data contained within a vote extension.

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	"github.com/skip-mev/slinky/providers/base/api/metrics"
+	"github.com/warden-protocol/connect/oracle/config"
+	"github.com/warden-protocol/connect/providers/base/api/metrics"
 
 	"github.com/ethereum/go-ethereum/rpc"
 )

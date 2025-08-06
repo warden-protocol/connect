@@ -10,9 +10,9 @@ import (
 	"github.com/gagliardetto/solana-go/rpc"
 	"github.com/gagliardetto/solana-go/rpc/jsonrpc"
 
-	"github.com/skip-mev/slinky/oracle/config"
-	slinkyhttp "github.com/skip-mev/slinky/pkg/http"
-	"github.com/skip-mev/slinky/providers/base/api/metrics"
+	"github.com/warden-protocol/connect/oracle/config"
+	slinkyhttp "github.com/warden-protocol/connect/pkg/http"
+	"github.com/warden-protocol/connect/providers/base/api/metrics"
 )
 
 // JSONRPCClient is an implementation of the Solana JSON RPC client with

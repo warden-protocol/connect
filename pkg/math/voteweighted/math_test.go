@@ -13,11 +13,11 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/skip-mev/slinky/abci/testutils"
-	"github.com/skip-mev/slinky/aggregator"
-	"github.com/skip-mev/slinky/pkg/math/voteweighted"
-	"github.com/skip-mev/slinky/pkg/math/voteweighted/mocks"
-	slinkytypes "github.com/skip-mev/slinky/pkg/types"
+	"github.com/warden-protocol/connect/abci/testutils"
+	"github.com/warden-protocol/connect/aggregator"
+	"github.com/warden-protocol/connect/pkg/math/voteweighted"
+	"github.com/warden-protocol/connect/pkg/math/voteweighted/mocks"
+	slinkytypes "github.com/warden-protocol/connect/pkg/types"
 )
 
 type MathTestSuite struct {

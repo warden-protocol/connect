@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"time"
 
-	providertypes "github.com/skip-mev/slinky/providers/types"
+	providertypes "github.com/warden-protocol/connect/providers/types"
 
-	"github.com/skip-mev/slinky/oracle/types"
-	"github.com/skip-mev/slinky/pkg/math"
+	"github.com/warden-protocol/connect/oracle/types"
+	"github.com/warden-protocol/connect/pkg/math"
 )
 
 // parseTickerResponseMessage is used to parse a ticker response message. Note
