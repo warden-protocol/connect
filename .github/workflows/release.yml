@@ -1,32 +1,79 @@
+---
 name: Release
-# This workflow helps with creating releases.
-# This job will only be triggered when a tag (vX.X.x) is pushed
+
 on:
+  workflow_dispatch:
   push:
-    # Sequence of patterns matched against refs/tags
     tags:
-      - "v*.**" # Push events to matching v*.*, i.e. v0.0.0, v0.0.0-alpha.0, etc.
+      - "v*.*.*"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  release:
-    permissions:
-      contents: write # for goreleaser/goreleaser-action to create a GitHub release
+  build-amd64:
+    name: Build for linux/amd64
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Install Go
-        uses: actions/setup-go@v5
+      - name: Checkout code
+        uses: actions/checkout@v5
         with:
-          go-version: 1.23.0
-      - name: Unshallow
-        run: git fetch --prune --unshallow
-      - name: Create release
-        uses: goreleaser/goreleaser-action@v6
+          fetch-depth: 0
+
+      - uses: actions/setup-go@v6
         with:
-          args: release --clean
-          version: "~> v1"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          go-version: "^1.25.3"
+
+      - name: Build
+        run: go build -o build/slinky-linux-amd64 ./cmd/slinky
+
+      - name: Upload amd64 binary artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: binary-amd64
+          path: build/*
+
+  build-arm64:
+    name: Build for linux/arm64
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Build
+        run: go build -o build/slinky-linux-arm64 ./cmd/slinky
+
+      - name: Upload arm64 binary artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: binary-arm64
+          path: build/*
+
+  publish:
+    needs: [build-amd64, build-arm64]
+    name: Publish Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Generate checksums
+        run: |
+          cd artifacts/binary-amd64
+          sha256sum * > ../sha256sum.txt
+          cd ../binary-arm64
+          sha256sum * >> ../sha256sum.txt
+          cd ..
+
+      - name: Upload Release Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/sha256sum.txt
+            artifacts/binary-amd64/*
+            artifacts/binary-arm64/*
+          prerelease: ${{ contains(github.ref_name, '-rc') }}
